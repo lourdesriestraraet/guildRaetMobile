@@ -9,9 +9,48 @@
     tools:context="com.raet.guild.myfirstapp.MainActivityFragment"
     tools:showIn="@layout/activity_main">
 
+    <include layout="@layout/info_header"
+        android:id="@+id/include" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/main_hello"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_below="@+id/include"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/main_hint_ed_text"
+        android:ems="10"
+        android:id="@+id/main_name_greet_et"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:nextFocusDown="@+id/main_greet_buton"
+        android:layout_marginTop="35dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_button_greet"
+        android:id="@id/main_greet_buton"
+        android:layout_below="@+id/main_name_greet_et"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/main_greet_tv"
+        android:visibility="visible"
+        android:layout_below="@+id/main_greet_buton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
 
 </RelativeLayout>

@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">My First App</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="main_hello">Hello! Please, introduce your name</string>
+    <string name="main_hint_ed_text">Introduce your name</string>
+    <string name="main_button_greet">Greeting</string>
+    <string name="main_greet_one">I sent to you a new notification in notification bar and in your wear</string>
+    <string name="main_greet_two">Hello!</string>
+    <string name="main_error">Please, introduce your name</string>
+    <string name="main_notification_message">, you have a new notification</string>
 </resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="main_hello"> Hallo! Gelieve, introduceren uw naam</string>
+    <string name="main_hint_ed_text">Introduceren uw naam</string>
+    <string name="main_button_greet">Groet</string>
+    <string name="main_greet_one">Ik stuurde u een nieuwe melding in de kennisgeving bar en in uw horloge</string>
+    <string name="main_greet_two">Hallo!</string>
+    <string name="main_error">Gelieve, introduceren uw naam</string>
+    <string name="main_notification_message">,  je hebt een nieuwe melding</string>
+</resources>
